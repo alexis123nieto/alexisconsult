@@ -4,7 +4,7 @@
         $db_user = "root";
         $db_password = "";
     
-      $connection = mysqli_connect('localhost', 'root', '');
+      $connection = mysqli_connect('localhost', 'panaderia', 'roor', '');
     
      mysqli_select_db($connection, $db_name) or die("Error al seleccionar la base de datos:".mysqli_error());
     @mysqli_query("SET NAMES 'utf8'");
