@@ -4,9 +4,8 @@
         $db_user = "root";
         $db_password = "";
     
-      $connection = mysqli_connect('localhost', 'panaderia', 'root', '');
-    
-     mysqli_select_db($connection, $db_name) or die("Error al seleccionar la base de datos:".mysqli_error());
+     $connection = mysql_connect($db_host, $db_user, $db_password) or die("Connection Error: " . mysql_error());
+      mysqli_select_db($connection, $db_name) or die("Error al seleccionar la base de datos:".mysqli_error());
     @mysqli_query("SET NAMES 'utf8'");
 
     $sql_query = "SELECT * FROM inventario";
