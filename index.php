@@ -1,10 +1,10 @@
     <?php
-        $db_host = "am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $db_name = "zxl4lpl8325rqc9l";
-        $db_user = "j2qv3f0n8u3tzlnr";
-        $db_password = "qzy4hgt7qyb5ljip";
+        $db_host = "localhost";
+        $db_name = "panaeria";
+        $db_user = "root";
+        $db_password = "";
     
-      $connection = mysqli_connect('am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'j2qv3f0n8u3tzlnr', 'qzy4hgt7qyb5ljip');
+      $connection = mysqli_connect('localhost', 'root', '');
     
      mysqli_select_db($connection, $db_name) or die("Error al seleccionar la base de datos:".mysqli_error());
     @mysqli_query("SET NAMES 'utf8'");
