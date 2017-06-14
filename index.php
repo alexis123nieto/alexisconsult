@@ -1,6 +1,6 @@
     <?php
       $db_host = "if0ck476y7axojpg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-     $db_name = "wpjkiorbuofp9ov9";
+     $db_name = "wpjkyorbuofp9ov9";
      $db_user = "poa9o3zufh96lr39";
      $db_password = "gz0zsymvbcrt7sia";
     
